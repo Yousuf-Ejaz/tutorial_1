@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const title ="Welcome to my blog";
   return (
     <div className="App">
-      <div className="container"></div>
+      <div className="content">
+        <h1>{title}</h1>
+
+      </div>
     </div>
   );
 }
